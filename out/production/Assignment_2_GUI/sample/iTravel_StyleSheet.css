@@ -1,0 +1,8 @@
+/*Body bg is use to se the body background image
+The image is located in the package and is referenced
+The x and y scale is adjusted to match the output in the assignment
+ */
+.bodybg{
+    -fx-background-image: url('westernbackground.png');
+    -fx-background-size: 110% 110%;
+}
