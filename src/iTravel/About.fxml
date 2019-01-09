@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="305.0" prefWidth="336.0" style="-fx-background-color: whitesmoke;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iTravel.AboutController">
+    <bottom>
+        <Button fx:id="okBtn" alignment="CENTER" contentDisplay="RIGHT" mnemonicParsing="false" onAction="#exit" prefHeight="25.0" prefWidth="51.0" text="OK" BorderPane.alignment="CENTER_RIGHT">
+            <BorderPane.margin>
+                <Insets bottom="10.0" right="30.0" />
+            </BorderPane.margin>
+        </Button>
+    </bottom>
+    <center>
+        <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="203.0" prefWidth="254.0" style="-fx-alignment: center;" BorderPane.alignment="CENTER">
+            <children>
+                <Label text="iTravel" />
+                <Label text="Copyright @2018 SE2203a">
+                    <padding>
+                        <Insets top="10.0" />
+                    </padding>
+                </Label>
+                <Label alignment="CENTER" prefWidth="232.0" text="Garvan Doyle and Matthew Kasperavicius" textFill="#f80505">
+                    <font>
+                        <Font name="System Italic" size="12.0" />
+                    </font>
+                    <padding>
+                        <Insets top="15.0" />
+                    </padding>
+                </Label>
+            </children>
+        </VBox>
+    </center>
+</BorderPane>

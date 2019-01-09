@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iTravel.AddEmployeeController">
+   <children>
+      <Label layoutX="245.0" layoutY="26.0" text="Add Employee">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="80.0" text="Name" />
+      <Label layoutX="150.0" layoutY="130.0" text="Flights Created" />
+      <Label layoutX="150.0" layoutY="180.0" text="Email" />
+      <Label layoutX="150.0" layoutY="230.0" text="Password" />
+      <TextField fx:id="name" layoutX="347.0" layoutY="76.0" />
+      <TextField fx:id="flightsCreated" layoutX="347.0" layoutY="126.0" />
+      <TextField fx:id="email" layoutX="347.0" layoutY="176.0" />
+      <TextField fx:id="pword" layoutX="347.0" layoutY="226.0" />
+      <Button fx:id="saveBtn" layoutX="401.0" layoutY="361.0" mnemonicParsing="false" onAction="#save" text="Save" />
+      <Button fx:id="cancelBtn" layoutX="455.0" layoutY="361.0" mnemonicParsing="false" onAction="#cancel" text="Cancel" />
+   </children>
+</AnchorPane>
